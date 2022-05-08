@@ -14,10 +14,10 @@ body {
     --borda-botoes: #000000;
     --icones-tema: #fab651;
 
-    background: linear-gradient(180deg, #ffffff, #9e9ee4, #8364e9) fixed;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
     background-size: 100% 100%;
     overflow-y: hidden;
+    transition: 2s;
 }
 
 body.dark-mode {
@@ -26,7 +26,7 @@ body.dark-mode {
     --borda-botoes: #ffffff;
     --icones-tema: #ffffff;
 
-    background: url(imagens/fundo-estrelas.png), linear-gradient(180deg, #000000, #181834, #2e1a6c) fixed;
+    background: url(imagens/fundo-estrelas.png), #181834;
     background-size: 100%, 100% 100%;
 }
 
@@ -99,18 +99,35 @@ body.dark-mode {
     }
 }
 
-.botao-mudanca-tema {
-    background-color: var(--background-botoes);
-    color: var(--fonte);
-    width: 50%;
-    padding: 15px;
-    border: solid 2px var(--borda-botoes);
-    border-radius: 40px;
-    cursor: pointer;
+.checkbox {
+    opacity: 0;
 }
 
-.botao-mudanca-tema:hover {
-    font-weight: bold;
+.campo-checkbox {
+    background-color: var(--background-botoes);
+    border: 1px solid var(--borda-botoes);
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	height: 20px;
+	width: 40px;
+	transform: scale(1.5);
+}
+
+.bola-checkbox {
+    background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 14px;
+	width: 14px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .campo-checkbox .bola-checkbox {
+	transform: translateX(20px);
 }
 
 .icones-sol-lua {
@@ -130,7 +147,7 @@ body.dark-mode {
 .icone-sol,
 .icone-lua {
     position: absolute;
-    transition: opacity, fill, 1s;
+    transition: opacity, fill, 2s;
     fill: var(--icones-tema);
 }
 
