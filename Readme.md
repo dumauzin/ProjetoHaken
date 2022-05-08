@@ -19,7 +19,7 @@
 
 <!-- SOBRE O PROJETO -->
 
-<div id="#sobre"></div>
+<div id="#sobre" align="center">
 
 <h2 align="center"> <strong> Sobre o projeto </strong> </h2>
 
@@ -27,11 +27,19 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Este é um projeto de código aberto com o intuito de representar o Linktree pessoal de Eduardo Riki Matushita, discente do 2º período da Universidade Tecnológica Federal do Paraná (UTFPR).
 
-- Webiste estático;
-- Responsivo;
-- Possui *light mode* e *dark mode*;
-- Código apenas em português;
-- Estilo de escrita utilizado: *snake case*;
+[ `Website estático` ]
+
+[ `Responsivo` ]
+
+[ `Possui *light mode* e *dark mode*` ]
+
+[ `Código apenas em português` ]
+
+[ `Estilo de escrita utilizado: *snake case*` ]
+
+<img align="center" src="imagens/screenshot.png" width="75%">
+
+</div>
 
 <br>
 
@@ -39,15 +47,17 @@
 
 <!-- TECNOLOGIAS UTILIZADAS -->
 
-<div id="tecnologias"></div>
+<div id="tecnologias">
 
 <h2 align="center"> <strong> Tecnologias utilizadas </strong> </h2>
 
 <br>
 
-* [HTML](https://nextjs.org/)
-* [CSS](https://reactjs.org/)
-* [JavaScipt](https://vuejs.org/)
+- HTML
+- CSS
+- JavaScipt
+
+</div>
 
 <br>
 
@@ -55,13 +65,16 @@
 
 <!-- USAGE EXAMPLES -->
 
-<div id="planejamento"></div>
+<div id="planejamento">
 
 <h2 align="center"> <strong> Planejamento do projeto </strong> </h2>
 
 <br>
 
-- https://trello.com/b/WXIIfIkS/haken-projeto-individual.
+- Prototipagem da tela: `PowerPoint`
+- Planejamento: `https://trello.com/b/WXIIfIkS/haken-projeto-individual`
+
+</div>
 
 <br>
 
