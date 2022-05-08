@@ -27,8 +27,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Este é um projeto de código aberto com o intuito de representar o Linktree pessoal de Eduardo Riki Matushita, discente do 2º período da Universidade Tecnológica Federal do Paraná (UTFPR).
 
-- Projeto programado com HTML, CSS e Javascript;
-- É responsivo e possui tema *light mode* e *dark mode*;
+- Webiste estático;
+- Responsivo;
+- Possui *light mode* e *dark mode*;
 - Código apenas em português;
 - Estilo de escrita utilizado: *snake case*;
 
@@ -77,8 +78,6 @@
 E-mail - eduardomatushita1@gmail.com
 
 Linkedin: https://www.linkedin.com/in/eduardo-riki-matushita/
-
-Celular: (44) 98436-4580
 
 ---
 
